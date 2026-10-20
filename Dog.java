@@ -23,4 +23,7 @@ public class Dog extends Pet {
     public void petDog() {
 	System.out.println(getName() + " loved you petting him!");
     }
+    public void rollOver() {
+	System.out.println(getName() + " rolled Over!");
+    }
 }
