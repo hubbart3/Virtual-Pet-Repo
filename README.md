@@ -3,7 +3,7 @@
 ## Names of Pair Working on This Fork
 <Enter Name 1 Here>
 
-<Maeve Baker>
+Maeve Baker
 
 ## Run from Git Bash
 
