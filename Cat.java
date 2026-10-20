@@ -2,6 +2,8 @@
 Class for defining a cat in a virtual pet simulator.
 */
 public class Cat extends Pet {
+	private int jumps;
+
 	/**
 	Constructor for Cat. Uses the Super constructor from Pet to set
 	the name of the Cat
@@ -9,6 +11,7 @@ public class Cat extends Pet {
 	*/
     public Cat(String name) {
         super(name);
+	jumps = 0;
     }
 
 	/**
@@ -27,8 +30,16 @@ public class Cat extends Pet {
 
     /**
      Prints the name of cat followed by " jumps high into the air!"
+     adds to jump.
      */
     public void jump() {
 	System.out.println(getName() + " jumps high into the air!");
+	jumps++;
+    }
+    /**
+    Prints jump stats for cat
+    */
+    public void jumpStat() {
+	System.out.println(getName() + " jumped " + jumps);
     }
 }
